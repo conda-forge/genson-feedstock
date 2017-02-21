@@ -1,8 +1,8 @@
 {%set name = "genson" %}
-{%set version = "0.2.0" %}
+{%set version = "0.2.1" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "6ea2bb5b87f042d099154535dbdf61f62402b19bb249e82a15435f2340c58dea" %}
+{%set hash_val = "99b225a5d78a04a8c85dc60b87683f3e53c46e4d7ae6ad87e8b98aece1bab46a" %}
 {%set build_num = "0" %}
 
 package:
