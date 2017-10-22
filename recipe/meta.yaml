@@ -13,7 +13,9 @@ source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
+
 build:
+  noarch: python
   entry_points:
     - genson = genson.genson:main
   number: {{ build }}
