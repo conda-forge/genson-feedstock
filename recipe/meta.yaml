@@ -1,8 +1,8 @@
 {% set name = "genson" %}
-{% set version = "0.2.3" %}
+{% set version = "1.0.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "1756740cff035de646a0b1af5cc21f3c8cf558574630c00e40d17ad12024d8da" %}
+{% set hash = "06bbedcde7f268626991b465b0ed3dae00f150b1c20c31c60c092a752531262c" %}
 {% set build = 0 %}
 
 package:
@@ -17,7 +17,7 @@ source:
 build:
   noarch: python
   entry_points:
-    - genson = genson.genson:main
+    - genson = genson.cli:main
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
