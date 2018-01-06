@@ -17,7 +17,7 @@ source:
 build:
   noarch: python
   entry_points:
-    - genson = genson.genson:main
+    - genson = genson.cli:main
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
