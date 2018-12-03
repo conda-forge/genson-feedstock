@@ -1,8 +1,8 @@
 {% set name = "genson" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "003218636de802d2268c167c5227b9b9110d7488f376411b3f6c6621f4bc42dc" %}
+{% set hash = "8b6e2e08bc0cbfe10f957f390b5f631ca58036c9f1b0ebdde3553722c44c56fa" %}
 
 package:
   name: {{ name|lower }}
