@@ -15,7 +15,7 @@ source:
 build:
   noarch: python
   entry_points:
-    - genson = genson.cli:main
+    - genson = genson.__main__:main
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -23,7 +23,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - setuptools >=44
 
   run:
     - python >={{ python_min }}
