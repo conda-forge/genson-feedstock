@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: genson
-  version: "1.3.1"
+  version: "1.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 4ac23ffb6ff29bbde4909963e59af09c28acd57f15841208e9a5bcc5008e721b
+  sha256: bc7f1c1bae87a21ca44d81149aec95a3f4468d676de9b8b08caa064f3c50b3da
 
 build:
   number: 0
